@@ -1,0 +1,61 @@
+# Ignore SWMM output files
+*.out
+*.rpt
+
+# 忽略时间序列文件
+timeseries_*.txt
+
+# Ignore database files
+*.db
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore SWMM input and configuration files if not needed
+*.ini
+*.inp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore any other unnecessary files
+
+# 忽略分析结果文件
+analysis_results*.json
+
+
+# 忽略Python编译文件
+__pycache__/
+*.py[cod]
+
+# Ignore analysis result files
+analysis_results*.json
+
+# Ignore CSV files
+*.csv
+
+# Ignore temporary files
+*.tmp
+
+# Ignore log files
+*.log
+
+# 忽略 DATA 目录
+DATA/
+
+# 忽略时间序列文件
+timeseries.txt
+timeseries*.txt
+
+# 忽略 bfg.jar 文件
+bfg.jar
+
